@@ -217,7 +217,7 @@
             <div class="container">
 
                 <!-- Contact Section Heading -->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">BUY!</h2>
 
                 <!-- Icon Divider -->
                 <div class="divider-custom">
@@ -233,36 +233,51 @@
                     <div class="col-lg-8 mx-auto">
                         <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                         <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                    
+
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Nombre</label>
-                                    <input class="form-control" id="nombre" type="text" placeholder="Nombre" required="required" data-validation-required-message="Por favor entre su nombre.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Sexo</label>
-                                    <input class="form-control" id="sexo" type="text" placeholder="Femenino/Masculino" required="required" data-validation-required-message="Por favor entre su sexo.">
+                                    <label>Name</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Por favor ingrese su nombre.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             
+
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Edad</label>
-                                    <input class="form-control" id="edad" type="text" placeholder="Edad" required="required" data-validation-required-message="Por favor entre su edad.">
+                                    <label>Age</label>
+                                    <input class="form-control" id="edad" type="text" placeholder="Age" required="required" data-validation-required-message="Por favor ingrese su edad.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Producto</label>
-                                    <input class="form-control" id="producto" type="text" placeholder="Producto" required="required" data-validation-required-message="Por favor entre el producto.">
-                                    <p class="help-block text-danger"></p>
+                            <br>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sex
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Male</a>
+                                    <a class="dropdown-item" href="#">Female</a>
+     
                                 </div>
                             </div>
+                            <br>
+
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Products
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Wood</a>
+                                    <a class="dropdown-item" href="#">Cakes</a>
+                                    <a class="dropdown-item" href="#">Tents</a>
+                                    <a class="dropdown-item" href="#">Controllers</a>
+                                    <a class="dropdown-item" href="#">Safes</a>
+                                    <a class="dropdown-item" href="#">Submarines</a>
+                                </div>
+                            </div>
+
+
                             <br>
                             <div id="success"></div>
                             <div class="form-group">
